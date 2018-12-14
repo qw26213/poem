@@ -1,0 +1,5 @@
+<canvas canvas-id="myCanvas"></canvas>
+<view class="plr15 mt15">
+	<view class="btn_common" bindtap="savePic">保存图片</view>
+</view>
+<loading hidden="{{hidden}}">加载中...</loading>

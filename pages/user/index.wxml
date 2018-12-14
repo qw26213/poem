@@ -1,0 +1,29 @@
+<view class="h90 myCenter urel ub-ac" wx:if="{{hasUserInfo}}">
+  <view class="userImgDiv" wx:if="{{hasUserInfo}}">
+    <image class="userImg udb" src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <view class="ub-f1">
+      <view class="f14 white">{{userInfo.nickName}}</view>
+      <view class="f12 white mt05">{{userInfo.gender==1?'男':'女'}}   {{userInfo.province}}{{userInfo.city}}</view>
+  </view>
+</view>
+<view class="h90 myCenter urel ub-ac" wx:else>
+  <view class="userImgDiv">
+    <image class="userImg udb" src="../../image/user.png"></image>
+  </view>
+  <view class="loginBtn" bindtap="toLogin">登 录</view>
+</view>
+<view class="bbc">
+  <view class="btc ub-ac plr10 w_100 h50">
+      <view class="ub-f1">
+        <button class='kefu f14 bc tx-l udb' open-type='contact' session-from='weapp'>联系客服</button>
+      </view>
+      <image src="../../image/arrow-right.png" class="arrow-right"></image>
+  </view>
+  <view class="btc ub-ac plr10 w_100 h50" bindtap="bindViewTap">
+      <view class="ub-f1"> 
+        <text class="f14 bc tx-l udb">我的名片</text>
+      </view>
+      <image src="../../image/arrow-right.png" class="arrow-right"></image>
+  </view>
+</view>

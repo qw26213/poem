@@ -1,0 +1,11 @@
+<image class="banner" src="../../image/002.jpg" style="height:{{imageHeight}}"></image>
+<view class="bbc">
+  <view class="w_100 bgb" wx:for="{{shopList}}" wx:key="unique">
+      <navigator url="/pages/home/index?id={{item.id}}&name={{item.name}}" class="btc ub-ac plr10 w_100 h50" hover-class="navigator-hover">
+          <view class="ub-f1">
+            <text class="f14 bc tx-l udb">{{item.name}}</text>
+          </view>
+          <image src="../../image/arrow-right.png" class="arrow-right"></image>
+      </navigator>
+  </view>
+</view>

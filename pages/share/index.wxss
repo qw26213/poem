@@ -1,0 +1,4 @@
+page { height: 100%; background-color: #dedede; padding: 20rpx 0rpx;box-sizing:border-box; }
+canvas { height: 400px; width: 100%; }
+.mt60 { margin-top: 60rpx; }
+.btn_common { background-color: #00b26a; border-radius: 100px; height: 88rpx; text-align: center; line-height: 88rpx; font-size: 32rpx; color: #fff; }
