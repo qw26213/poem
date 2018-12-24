@@ -6,3 +6,4 @@
 .kefu {background: #fff; color: #333;padding:0;border:#fff 1rpx solid;height: 100rpx;line-height: 100rpx;}
 .kefu::after {border: 0;}
 .loginBtn{width: 120rpx;height: 50rpx;line-height: 50rpx;font-size: 26rpx;text-align: center;color: #fff;border:1rpx #fff solid;border-radius: 8rpx;margin-left: 5px;}
+video{width: 100%;}

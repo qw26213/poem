@@ -27,3 +27,6 @@
       <image src="../../image/arrow-right.png" class="arrow-right"></image>
   </view>
 </view>
+<video src="{{videoSrc}}">
+  
+</video>
