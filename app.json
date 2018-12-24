@@ -6,6 +6,7 @@
     "pages/liuyuxi/index",
     "pages/home/index",
     "pages/user/index",
+    "pages/video/index",
     "pages/getuser/index",
     "pages/logs/logs"
   ],
