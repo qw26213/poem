@@ -55,7 +55,8 @@ Page({
     },
     onLoad: function() {
         wx.setNavigationBarTitle({ title: '我的视频' });
-        this.getVideoInfo('h0541ilyitl');
+        // this.getVideoInfo('h0541ilyitl');
+        this.getVideoInfo('l05216ykf50');
     }
 })
 
