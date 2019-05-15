@@ -3,7 +3,7 @@
 .myCenter { background-color: #00b26a; }
 .slide-image { display: block; width: 100%; }
 .navigator-hover { background: #f5f5f5; }
-.kefu {background: #fff; color: #333;padding:0;border:#fff 1rpx solid;height: 100rpx;line-height: 100rpx;}
+.kefu {background: #fff; color: #333;border:#fff 1rpx solid;}
 .kefu::after {border: 0;}
 .loginBtn{width: 120rpx;height: 50rpx;line-height: 50rpx;font-size: 26rpx;text-align: center;color: #fff;border:1rpx #fff solid;border-radius: 8rpx;margin-left: 5px;}
 video{width: 100%;}

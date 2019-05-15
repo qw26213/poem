@@ -1,17 +1,13 @@
-.ub, .ub-ac, .ub-ae, .ub-pc, .ub-pe, .ub-pj, .ub-ver, .ub-apc, .ub-apj { display: -webkit-box; display: box; position: relative }
-.ub-ac { -webkit-box-align: center; box-align: center }
-.ub-ae { -webkit-box-align: end; box-align: end }
-.ub-pc { -webkit-box-pack: center; box-pack: center }
-.ub-pe { -webkit-box-pack: end; box-pack: end }
-.ub-pj { -webkit-box-pack: justify; box-pack: justify }
-.ub-ver { -webkit-box-orient: vertical; box-orient: vertical }
-.ub-f1 { -webkit-box-flex: 1; box-flex: 1 }
-.ub-f2 { -webkit-box-flex: 2; box-flex: 2 }
-.ub-f3 { -webkit-box-flex: 3; box-flex: 3 }
-.ub-f4 { -webkit-box-flex: 4; box-flex: 4 }
-.ub-f5 { -webkit-box-flex: 5; box-flex: 5 }
-.ub-apc { -webkit-box-align: center; box-align: center; -webkit-box-pack: center; box-pack: center }
-.ub-apj { -webkit-box-align: center; box-align: center; -webkit-box-pack: justify; box-pack: justify }
+.ub,.ub-ac { display: -webkit-flex; display: flex; position: relative;box-sizing:border-box; }
+.ub-ver { -webkit-flex-direction: column; flex-direction: column; }
+.ub-ac { -webkit-align-items: center; align-items: center; }
+.ub-pc { -webkit-justify-content: center; justify-content: center; }
+.ub-pj { -webkit-justify-content: space-between; justify-content: space-between; }
+.ub-pj1 { -webkit-justify-content: space-around; justify-content: space-around; }
+.ub-f1 { -webkit-flex: 1; flex: 1; }
+.ub-f2{-webkit-flex:2;flex:2;}
+.ub-f3{-webkit-flex:3;flex:3;}
+.ub-f4{-webkit-flex:4;flex:4;}
 .ub-img, .ub-img1, .ub-img2 { background-repeat: no-repeat; background-position: center }
 .ub-img { -webkit-background-size: contain; background-size: contain; }
 .ub-img1 { -webkit-background-size: cover; background-size: cover; }
@@ -27,13 +23,8 @@
 .ulb0 { left: 0; bottom: 0 }
 .urb0 { right: 0; bottom: 0 }
 .uhide { display: none }
-.op0 { opacity: 0 }
-.ublock { display: block }
-.uinline { display: inline }
-.uinline-block { display: inline-block }
-.ovh { overflow: hidden }
-.ovs { overflow: scroll }
-.ov-x { overflow-x: scroll; overflow-y: hidden }
+.udb { display: block }
+.uds { display: inline-block }
 .tx-c { text-align: center }
 .tx-l { text-align: left }
 .tx-r { text-align: right }
@@ -97,7 +88,6 @@
 .ptb15 { padding-top: 15px; padding-bottom: 15px }
 .ptb20 { padding-top: 20px; padding-bottom: 20px }
 .pt45 { padding-top: 45px }
-.boxSizing, .w_100, .w_50, .w_25, .w_33 { -webkit-box-sizing: border-box; box-sizing: border-box }
 .w_100 { width: 100% }
 .w_50 { width: 50%; float: left }
 .w_25 { width: 25%; float: left }
@@ -178,10 +168,7 @@
 .white{color: #fff}
 .iconwh { width: 30px; height: 30px; display: block }
 .fuwu .ub-apc { border-right: 1px #e5e5e5 solid;}
-.udb { display: block }
-.uds { display: inline-block }
 .lh30 { line-height: 30px }
-.uhide {display: none;}
 .textToast { width: 100%; height: 100px; text-align: center; position: fixed; left: 0; top: 50%; margin-top: -50px; z-index: 99999999; }
 .textTips { display: inline-block; padding:15px 20px; background: rgba(0, 0, 0, 0.7); color: #fff; font-size: 14px; line-height: 30px; overflow: hidden; border-radius: 3px; max-width: 60%}
 

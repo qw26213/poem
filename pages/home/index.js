@@ -34,7 +34,7 @@ Page({
       {id:"204",content:'<p class="scCon">莫听穿林打叶声，何妨吟啸且徐行。 <br/>竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。 </p><p class="scCon mt10">料峭春风吹酒醒，微冷，山头斜照却相迎。<br/> 回首向来萧瑟处，归去，也无风雨也无晴。</p>'},
       {id:"205",content:'<p class="scCon">春未老，风细柳斜斜。<br/>试上超然台上望，半壕春水一城花。烟雨暗千家。</p><p class="scCon mt10">寒食后，酒醒却咨嗟。<br/>休对故人思故国，且将新火试新茶。诗酒趁年华。</p>'},
       {id:"206",content:'<p class="scCon">人生到处知何似，应似飞鸿踏雪泥。<br/>泥上偶然留指爪，鸿飞那复计东西。<br/>老僧已死成新塔，坏壁无由见旧题。<br/>往日崎岖还记否，路长人困蹇驴嘶。</p>'},
-      {id:"207",content:'<p class="scCon">细雨斜风作晓寒，淡烟疏柳媚晴滩。入淮清洛渐漫漫。</p>< class="scCon mt10">雪沫乳花浮午盏，蓼茸蒿笋试春盘。人间有味是清欢。</p>'},
+      {id:"207",content:'<p class="scCon">细雨斜风作晓寒，淡烟疏柳媚晴滩。入淮清洛渐漫漫。</p><p class="scCon mt10">雪沫乳花浮午盏，蓼茸蒿笋试春盘。人间有味是清欢。</p>'},
       {id:"208",content:'<p class="scCon">一别都门三改火，天涯踏尽红尘。<br/>依然一笑作春温。无波真古井，有节是秋筠。</p><p class="scCon mt10">惆怅孤帆连夜发，送行淡月微云。<br/>尊前不用翠眉颦。人生如逆旅，我亦是行人。</p>'},
 
       {id:"300",content:'<p class="scCon">九曲黄河万里沙，<br/>浪淘风簸自天涯。<br/>如今直上银河去，<br/>同到牵牛织女家。</p>'},
@@ -52,7 +52,7 @@ Page({
     }
   },
   onLoad: function (options) {
-    var imgUrl = '../../image/p'+[Math.floor(Math.random()*8)]+'.jpg';
+    var imgUrl = '../../image/p'+(Math.floor(Math.random()*8))+'.jpg';
     let app = getApp();new app.ToastPannel();
     wx.setNavigationBarTitle({title: options.name});
     var insertData = this.getContentById(options.id);

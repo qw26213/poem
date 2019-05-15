@@ -9,27 +9,21 @@
 </view>
 <view class="h90 myCenter urel ub-ac" wx:else>
     <view class="userImgDiv">
-        <image class="userImg udb" src="../../image/user.png"></image>
+        <image class="userImg udb" src="/image/user.png"></image>
     </view>
     <view class="loginBtn" bindtap="toLogin">登 录</view>
 </view>
 <view class="bbc">
-    <view class="btc ub-ac plr10 w_100 h50">
-        <view class="ub-f1">
-            <button class='kefu f14 bc tx-l udb' open-type='contact' session-from='weapp'>联系客服</button>
-        </view>
-        <image src="../../image/arrow-right.png" class="arrow-right"></image>
-    </view>
+    <button class='kefu ub-ac plr10 w_100 h50' open-type='contact' session-from='weapp'>
+        <text class="f14 bc tx-l udb ub-f1">联系客服</text>
+        <image src="/image/arrow-right.png" class="arrow-right"></image>
+    </button>
     <view class="btc ub-ac plr10 w_100 h50" bindtap="tovideo">
-        <view class="ub-f1">
-            <text class="f14 bc tx-l udb">我的视频</text>
-        </view>
-        <image src="../../image/arrow-right.png" class="arrow-right"></image>
+        <view class="ub-f1 f14 bc tx-l udb">我的视频</view>
+        <image src="/image/arrow-right.png" class="arrow-right"></image>
     </view>
     <view class="btc ub-ac plr10 w_100 h50" bindtap="toshare">
-        <view class="ub-f1">
-            <text class="f14 bc tx-l udb">我的名片</text>
-        </view>
-        <image src="../../image/arrow-right.png" class="arrow-right"></image>
+        <view class="ub-f1 f14 bc tx-l udb">我的名片</view>
+        <image src="/image/arrow-right.png" class="arrow-right"></image>
     </view>
 </view>

@@ -1,10 +1,8 @@
-<import src="../../wxParse/wxParse.wxml" />
-<image src="{{imgUrl}}" class="slide-image"/>
-
+<import src="/wxParse/wxParse.wxml" />
+<image src="{{imgUrl}}" class="slide-image" />
 <view class="fuwu bgb">
-<text class="udb tx-c f14 scTitle">{{title}}</text>
-<template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+    <text class="udb tx-c f14 scTitle">{{title}}</text>
+    <template is="wxParse" data="{{wxParseData:content.nodes}}" />
 </view>
-
-<import src="../../component/toast/toast.wxml"/>
-<template is="toast" data="{{..._toast_ }}"/>
+<import src="/component/toast/toast.wxml" />
+<template is="toast" data="{{..._toast_ }}" />

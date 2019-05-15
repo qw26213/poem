@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/share/index",
     "pages/sushi/index",
@@ -10,8 +10,8 @@
     "pages/getuser/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#00b26a",
     "navigationBarTitleText": "毛泽东诗词",
     "navigationBarTextStyle": "white"
@@ -27,22 +27,26 @@
         "pagePath": "pages/index/index",
         "iconPath": "image/icon_home.png",
         "selectedIconPath": "image/icon_home_on.png"
-      },{
+      },
+      {
         "text": "苏东坡",
         "pagePath": "pages/sushi/index",
         "iconPath": "image/icon_home.png",
         "selectedIconPath": "image/icon_home_on.png"
-      },{
+      },
+      {
         "text": "刘禹锡",
         "pagePath": "pages/liuyuxi/index",
         "iconPath": "image/icon_home.png",
         "selectedIconPath": "image/icon_home_on.png"
-      },{
+      },
+      {
         "text": "我的",
         "pagePath": "pages/user/index",
         "iconPath": "image/icon_my.png",
         "selectedIconPath": "image/icon_my_on.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
